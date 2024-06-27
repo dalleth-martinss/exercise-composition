@@ -11,7 +11,7 @@ namespace ExerciseComposition
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter departamt's name: ");
+            Console.WriteLine("Enter department name: ");
             string deptName = Console.ReadLine();
 
             Console.WriteLine("Enter worker data: ");
@@ -30,7 +30,7 @@ namespace ExerciseComposition
             Console.WriteLine("How many contracts to this worker? ");
             int n = int.Parse(Console.ReadLine());
 
-            for(int i = 1; i <= n; i++)
+            for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"Enter #{i} contract data: ");
 
@@ -39,7 +39,7 @@ namespace ExerciseComposition
 
                 Console.WriteLine("Value per hour");
                 double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                
+
                 Console.WriteLine("Duration (Hours)");
                 int hours = int.Parse(Console.ReadLine());
 
@@ -47,16 +47,19 @@ namespace ExerciseComposition
 
                 worker.AddContract(contract);
 
-                Console.WriteLine("Enter month and year to calculate income(MM/ YYYY): ");
-                string monthAndYear = Console.ReadLine();
-                int month = int.Parse(monthAndYear.Substring(0, 2));// vai cortar o mês 
-                int year = int.Parse(monthAndYear.Substring(3));
-                Console.WriteLine("Name: " + worker.Name);
-                Console.WriteLine("Department: " + worker.Department.Name);
-                Console.WriteLine($"Income for {monthAndYear} : ", worker.Income(year, month));
             }
+            Console.WriteLine();
+            Console.WriteLine("Enter month and year to calculate income(MM/ YYYY): ");
+            string monthAndYear = Console.ReadLine();
 
+            int month = int.Parse(monthAndYear.Substring(0, 2));// vai cortar od dia do mês 
+            int year = int.Parse(monthAndYear.Substring(3));
 
+            Console.WriteLine("Name: " + worker.Name);
+            Console.WriteLine("Department: " + worker.Department.Name);
+            Console.WriteLine("Income for: " + monthAndYear + " : " + worker.Income(year, month));
+
+            Console.ReadLine();
         }
     }
 }
