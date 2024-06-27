@@ -17,7 +17,7 @@ namespace ExerciseComposition.Entities
 
         }
 
-        //o contract não é adiciodo contrutor pq não é usaual passar um lista instanciada no contructor de objt
+        //o contract não é adicionado construtor pq não é usual passar um lista instanciada no constructor de objt
         // lista começa vazia e depois iremos adicionando conforme a necessidade
         // sempre q tiver uma associação para muitos, não adicionamos no constructor
         public Worker(string name, WorkerLevel level, double baseSalary, Department department)
