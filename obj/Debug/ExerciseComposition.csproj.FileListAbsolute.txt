@@ -1,0 +1,7 @@
+C:\Users\DallethMartins\OneDrive\Documentos\CURSO-NELIO-ALVES-CSHARP\ExerciseComposition\bin\Debug\ExerciseComposition.exe.config
+C:\Users\DallethMartins\OneDrive\Documentos\CURSO-NELIO-ALVES-CSHARP\ExerciseComposition\bin\Debug\ExerciseComposition.exe
+C:\Users\DallethMartins\OneDrive\Documentos\CURSO-NELIO-ALVES-CSHARP\ExerciseComposition\bin\Debug\ExerciseComposition.pdb
+C:\Users\DallethMartins\OneDrive\Documentos\CURSO-NELIO-ALVES-CSHARP\ExerciseComposition\obj\Debug\ExerciseComposition.csproj.AssemblyReference.cache
+C:\Users\DallethMartins\OneDrive\Documentos\CURSO-NELIO-ALVES-CSHARP\ExerciseComposition\obj\Debug\ExerciseComposition.csproj.CoreCompileInputs.cache
+C:\Users\DallethMartins\OneDrive\Documentos\CURSO-NELIO-ALVES-CSHARP\ExerciseComposition\obj\Debug\ExerciseComposition.exe
+C:\Users\DallethMartins\OneDrive\Documentos\CURSO-NELIO-ALVES-CSHARP\ExerciseComposition\obj\Debug\ExerciseComposition.pdb
